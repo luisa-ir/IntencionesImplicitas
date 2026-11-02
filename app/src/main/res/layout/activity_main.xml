@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TALLER DE ANDROID"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#17365D"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona el ejercicio que deseas ejecutar"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1 - Lista de nombres" />
+
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 2 - Productos con imágenes" />
+
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3 - Lista de lugares" />
+
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 4 - Agregar elementos" />
+
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 5 - Seleccionar productos" />
+
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 6 - Contactos" />
+
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7 - Notas" />
+
+        <Button
+            android:id="@+id/btnEjercicio8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 8 - Ubicación en Maps" />
+
+        <Button
+            android:id="@+id/btnEjercicio9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 9 - Compartir texto" />
+
+        <Button
+            android:id="@+id/btnEjercicio10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 10 - Seleccionar contacto" />
+
+        <Button
+            android:id="@+id/btnEjercicio11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 11 - Abrir archivo PDF" />
+
+        <Button
+            android:id="@+id/btnEjercicio12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 12 - Intenciones implícitas" />
+
+    </LinearLayout>
+
+</ScrollView>

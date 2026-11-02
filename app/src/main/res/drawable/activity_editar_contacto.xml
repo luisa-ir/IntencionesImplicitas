@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:id="@+id/tvTituloEditarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#17365D"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textColor="#17365D"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etNombreContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="Ingrese el nombre"
+                android:inputType="textPersonName"
+                android:textColor="#333333"
+                android:padding="12dp"
+                android:background="#F5F7FA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Teléfono"
+                android:textColor="#17365D"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etTelefonoContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="Ingrese el número telefónico"
+                android:inputType="phone"
+                android:textColor="#333333"
+                android:padding="12dp"
+                android:background="#F5F7FA" />
+
+            <Button
+                android:id="@+id/btnGuardarContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Guardar Contacto"
+                android:backgroundTint="#17365D"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

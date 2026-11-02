@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 8: Ubicación en Google Maps"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#17365D"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitud"
+                android:textColor="#17365D"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etLatitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="4.60971"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#333333"
+                android:padding="12dp"
+                android:background="#F5F7FA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Longitud"
+                android:textColor="#17365D"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etLongitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="-74.08175"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#333333"
+                android:padding="12dp"
+                android:background="#F5F7FA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Etiqueta / Nombre de la ubicación"
+                android:textColor="#17365D"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etEtiqueta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Plaza de Bolívar, Bogotá"
+                android:inputType="textCapSentences"
+                android:textColor="#333333"
+                android:padding="12dp"
+                android:background="#F5F7FA" />
+
+            <Button
+                android:id="@+id/btnMostrarUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Mostrar ubicación"
+                android:backgroundTint="#17365D"
+                android:padding="14dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
